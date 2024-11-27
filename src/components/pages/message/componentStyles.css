@@ -1,0 +1,11 @@
+/*  ========  p 30 ========= 
+ p-5 md:p-6 lg:p-[30px] 
+ border border-[]
+ flex items-center justify-between gap-[]
+
+*/
+
+.test {
+  background: #005aff0a; /* rgba(0, 90, 255, 0.04); */
+  background: #005aff1a; /* rgba(0, 90, 255, 0.10) */
+}

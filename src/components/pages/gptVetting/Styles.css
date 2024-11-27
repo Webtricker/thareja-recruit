@@ -1,0 +1,211 @@
+.commonButton {
+  padding: 16px 20px;
+  max-width: 1720px;
+  max-height: 55px;
+  margin-right: 10px;
+  color: #005aff;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border-color: #005aff;
+  border: 1px solid;
+}
+.commonButtonForInviteCandidate {
+  padding: 16px 20px;
+  max-width: 1720px;
+  max-height: 55px;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: #005aff;
+  border-radius: 40px;
+  border-color: #005aff;
+  border: 1px solid;
+}
+.TableLayout {
+  display: flex;
+  padding: 10px 14px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.TableStyle {
+  border-radius: 30px 30px 0px 0px;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+  padding: 0 10px 0 5px;
+}
+.TableHead {
+  border-radius: 6px;
+  background: #edf4ff;
+  padding: 10px !important;
+}
+.TableRow {
+  padding: 30px !important;
+  margin: 20px;
+  border-bottom: 2px solid #a8b7c1;
+  width: 100%;
+  height: 107px;
+  width: 1680px;
+}
+.skillsColorOne {
+  color: #f00;
+}
+.skillsColorTwo {
+  color: #ffcc48;
+}
+.table-foot-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #005aff;
+  border-radius: 50px;
+  height: 50px;
+  color: #ffffff;
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+/* General container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/* Styles.css */
+
+/* Basic Table Styles */
+/* Styles.css */
+
+/* Basic Table Styles */
+/* Styles.css */
+
+/* Basic Table Styles */
+.Table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.Table th,
+.Table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.TableHead {
+  background-color: #edf4ff !important;
+}
+.TableHead tr {
+  background-color: #edf4ff !important;
+}
+.TableHead th {
+  background-color: #f4f4f4;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Responsive Table Styles */
+@media (max-width: 1200px) {
+  .Table th,
+  .Table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Table th,
+  .Table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .Table thead {
+    display: none; /* Hide the original header */
+    background-color: #edf4ff;
+  }
+
+  .Table tr {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .Table td {
+    display: block;
+    text-align: left;
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    margin-bottom: 5px;
+  }
+
+  .Table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .Table th,
+  .Table td {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
+
+/* Responsive styles for different breakpoints */
+@media (max-width: 768px) {
+  /* Mobile */
+  .container {
+    padding: 0 0.5rem;
+  }
+  .header {
+    font-size: 1.5rem;
+  }
+  .job-card {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet */
+  .container {
+    padding: 0 1rem;
+  }
+  .header {
+    font-size: 1.75rem;
+  }
+  .job-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Desktop */
+  .container {
+    padding: 0 2rem;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .job-card {
+    padding: 2rem;
+  }
+}
